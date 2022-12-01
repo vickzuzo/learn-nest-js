@@ -1,7 +1,7 @@
 import { UserRepository } from './users.repository';
 import { Injectable } from '@nestjs/common';
 import { User } from './schemas/user.schema';
-import { generateID } from 'src/utils';
+import { generateID } from '../utils';
 import { UpdateUserDto } from './dto';
 
 @Injectable()
